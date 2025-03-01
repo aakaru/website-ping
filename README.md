@@ -1,5 +1,8 @@
 # Website-Ping
-HealthChecker is a tiny, command-line tool written in Go that checks whether a website (or any TCP service) is reachable or down. It uses `net.DialTimeout` to connect to the specified domain and port, providing a quick and easy way to assess the availability of a service.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Website-Ping is a tiny, command-line tool written in Go that checks whether a website (or any TCP service) is reachable or down. It uses `net.DialTimeout` to connect to the specified domain and port, providing a quick and easy way to assess the availability of a service.
 
 ## ✨ Features
 
@@ -137,3 +140,5 @@ Contributions are welcome! Here are some ways you can contribute:
 ##  📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Made with ❤️ using Go
