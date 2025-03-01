@@ -1,7 +1,7 @@
 # Website-Ping
 HealthChecker is a tiny, command-line tool written in Go that checks whether a website (or any TCP service) is reachable or down. It uses `net.DialTimeout` to connect to the specified domain and port, providing a quick and easy way to assess the availability of a service.
 
-## Features
+## ✨ Features
 
 *   **Simple Domain Check:** Checks the reachability of a given domain.
 *   **Port Specification:** Allows specifying a port number (defaults to 80 if not provided).
@@ -9,7 +9,7 @@ HealthChecker is a tiny, command-line tool written in Go that checks whether a w
 *   **Clear Status Output:**  Provides a concise "[UP]" or "[DOWN]" status message, along with error details or connection information.
 *   **CLI Interface:**  Uses the `urfave/cli/v2` package for a user-friendly command-line interface.
 
-## Installation
+## 🚀 Installation
 
 1.  **Install Go:**  Make sure you have Go (version 1.18 or later) installed and properly configured.  See [the official Go installation instructions](https://go.dev/doc/install).
 
@@ -28,7 +28,7 @@ HealthChecker is a tiny, command-line tool written in Go that checks whether a w
     ```
     This will create an executable named `HealthChecker` (or `HealthChecker.exe` on Windows) in the current directory.  You can move this to a directory in your `PATH` for easy access.
 
-## Usage
+## 💡 Usage
 
 ```bash
 HealthChecker -d <domain> [-p <port>]
@@ -38,7 +38,7 @@ HealthChecker -d <domain> [-p <port>]
 
 *  -p or --port (Optional): The port number to check. Defaults to 80 if not specified. For example: 443, 8080.
 
-##Examples:
+## Examples:
 
 * Check if google.com is reachable on port 80:
 
@@ -102,7 +102,7 @@ Error: dial tcp [2a00:1450:4001:82e::200e]:12345: i/o timeout
 go run . -d google.com -p 443
 ```
 
-## Building from Source (Alternative to go get)
+## 🔧 Building from Source (Alternative to go get)
 
 If you prefer to clone the repository directly:
 
@@ -121,11 +121,11 @@ go build
 
 3.Run using the same usage commands as above.
 
-## Dependancies
+## 📝 Dependancies
 
 * urfave/cli/v2 - For creating the command-line interface.
 
-##Contributing 
+## 🤝 Contributing 
 
 Contributions are welcome! Here are some ways you can contribute:
 
@@ -134,6 +134,6 @@ Contributions are welcome! Here are some ways you can contribute:
 3.  Submit pull requests
 4.  Improve documentation
 
-##  License
+##  📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
