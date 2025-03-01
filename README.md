@@ -1,7 +1,7 @@
 # Website-Ping
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/go.1.23.6%2B-blue)](https://go.dev/dl/)
+[![Python Version](https://img.shields.io/badge/go-1.23.6%2B-blue)](https://go.dev/dl/)
 
 Website-Ping is a tiny, command-line tool written in Go that checks whether a website (or any TCP service) is reachable or down. It uses `net.DialTimeout` to connect to the specified domain and port, providing a quick and easy way to assess the availability of a service.
 
